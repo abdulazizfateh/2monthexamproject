@@ -1,0 +1,871 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.container2 {
+    margin: 0 auto;
+    width: 990px;
+}
+
+.container2 {
+    margin: 0 auto;
+    width: 750px;
+}
+
+.site-header {}
+
+.header-navbar {}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.nav-logo-list-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 41px;
+}
+
+.nav-item {
+    color: rgb(21, 12, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    opacity: 0.6;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-item:hover {
+    color: rgb(220, 120, 11);
+    opacity: 1;
+}
+
+.nav-item:active {
+    color: rgb(142, 73, 0);
+    opacity: 1;
+}
+
+
+.nav-booking-btn {
+    width: 155px;
+    font-family: "Roboto", sans-serif;
+    padding: 13px 0px 13px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    cursor: pointer;
+    border: 1.5px rgb(255, 227, 196) solid;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(220, 120, 11);
+    transition: all 0.18s linear;
+}
+
+.nav-booking-btn:hover {
+    color: white;
+    background-color: rgb(220, 120, 11);
+}
+
+
+.nav-booking-btn:active {
+    color: rgb(255, 213, 168);
+}
+
+.hero-section {}
+
+.hero-section-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 608px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    padding: 144px 0px 108px 0px;
+}
+
+.hero-title {
+    width: 555px;
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher", sans-serif;
+    font-style: normal;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    margin-bottom: 42px;
+}
+
+.hero-text {
+    width: 555px;
+    color: rgb(21, 12, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+.hero-button-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.hero-order-btn {
+    width: 158px;
+    padding: 21px 0px 21px 0px;
+    border: 1.5px rgb(255, 227, 196) solid;
+    border-radius: 5px;
+    color: rgb(220, 120, 11);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.18s linear;
+}
+
+.hero-food-btn {
+    width: 170px;
+    padding: 21px 0px 21px 0px;
+    border: 1.5px rgb(255, 227, 196) solid;
+    border-radius: 5px;
+    color: rgb(220, 120, 11);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 19px;
+    background-color: white;
+    transition: all 0.18s linear;
+}
+
+.hero-food-btn:hover {
+    color: white;
+    background-color: rgb(220, 120, 11);
+    border: none;
+}
+
+.hero-order-btn:hover {
+    color: white;
+    background-color: rgb(220, 120, 11);
+    border: none;
+}
+
+.hero-food-btn:active {
+    color: rgb(255, 213, 168);
+}
+
+.hero-order-btn:active {
+    color: rgb(255, 213, 168);
+}
+
+.hero-right {}
+
+.features-section {}
+
+.features-section-wrapper {
+    margin-bottom: 123.73px;
+}
+
+.features-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 41px;
+}
+
+.features-main-title {
+    color: rgb(220, 120, 11);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 7px;
+}
+
+.features-title {
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    text-transform: capitalize;
+}
+
+.features-content {
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    gap: 90px;
+}
+
+.features-item {
+    width: 300px;
+    height: 228px;
+}
+
+
+.features-item-image {
+    display: flex;
+    justify-content: center;
+}
+
+.features-item-image-background1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 88px;
+    background-color: #F5F6EA;
+    border-radius: 50%;
+    margin-bottom: 33px;
+}
+
+.features-item-image-background2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 88px;
+    background-color: #FDF1EF;
+    border-radius: 50%;
+    margin-bottom: 33px;
+}
+
+.features-item-image-background3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 88px;
+    background-color: #FCF1E7;
+    border-radius: 50%;
+    margin-bottom: 33px;
+}
+
+.features-item-title {
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.features-item-text {
+    color: rgb(21, 12, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.about-section {}
+
+.about-section-wrapper {
+    display: flex;
+    gap: 98px;
+    margin-bottom: 115.27px;
+}
+
+.about-left {
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    border-radius: 35px;
+}
+
+.about-right {
+    padding: 92px 0px 92px 0px;
+}
+
+.about-main-title {
+    color: rgb(220, 120, 11);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.about-title {
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40.63px;
+    margin-bottom: 30px;
+}
+
+.about-text {
+    width: 480px;
+    color: rgb(21, 12, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.about-read-btn {
+    width: 142px;
+    padding: 11px 0px 11px 0px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    background-color: white;
+    cursor: pointer;
+    border: 1.5px rgb(255, 227, 196) solid;
+    border-radius: 5px;
+    color: rgb(220, 120, 11);
+    transition: all 0.18s linear;
+}
+
+.about-read-btn:hover {
+    background-color: rgb(220, 120, 11);
+    color: white;
+}
+
+.about-read-btn:active {
+    color: rgb(255, 213, 168);
+}
+
+.menu-section {}
+
+.menu-section-wrapper {
+    margin-bottom: 187px;
+}
+
+
+.menu-top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.menu-main-title {
+    color: rgb(220, 120, 11);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 9px;
+}
+
+.menu-title {
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40.63px;
+    margin-bottom: 25px;
+}
+
+.menu-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 748px;
+    color: rgb(21, 12, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.menu-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.menu-item {
+    width: 360px;
+    height: 460px;
+    border-radius: 75px 10px 10px 10px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.menu-item-image {
+    border-radius: 75px 10px 80px 0px;
+}
+
+.menu-item-content-wrapper {
+    padding: 21px 25px 25px 25px;
+}
+
+.menu-item-title-price-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.menu-item-title {
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.menu-item-price {
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.menu-item-text {
+    color: rgb(21, 12, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.menu-item-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item-plus {
+    width: 36px;
+    height: 34px;
+    border-radius: 5px;
+    background: rgb(220, 120, 11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item-plus:hover {
+    background-color: #b05500;
+}
+
+.menu-item-stars-wrapper {
+    display: flex;
+    gap: 2px;
+}
+
+.menu-button {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-learn-btn {
+    width: 142px;
+    padding: 12px;
+    color: rgb(220, 120, 11);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1.5px rgb(255, 227, 196) solid;
+    transition: all 0.18s linear;
+}
+
+.menu-learn-btn:hover {
+    background-color: rgb(220, 120, 11);
+    color: white;
+}
+
+.menu-learn-btn:active {
+    color: rgb(255, 213, 168);
+}
+
+.take-section {
+    margin-bottom: 213px;
+    background-color: rgb(255, 250, 246);
+}
+
+.take-section-wrapper {
+    padding: 56px 0px 45px 0px;
+    display: flex;
+    gap: 128px;
+    height: 518px;
+}
+
+.take-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 114px 0px 129px 0px;
+}
+
+.take-main-title {
+    color: rgb(220, 120, 11);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+
+.take-title {
+    width: 500px;
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40.63px;
+    margin-bottom: 29px;
+
+}
+
+.take-text {
+    width: 555px;
+    color: rgb(21, 12, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 39px;
+    opacity: 0.7;
+}
+
+.take-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.take-appstore-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 163px;
+    padding: 14px;
+    color: rgb(21, 12, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 19px;
+    border: 1.5px rgb(203, 203, 203) solid;
+    border-radius: 5px;
+    background-color: rgb(251, 241, 231);
+    transition: all 0.18s linear;
+}
+
+.take-appstore-btn a {
+    color: black;
+}
+
+.take-googleplay-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 179px;
+    padding: 14px;
+    color: rgb(21, 12, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 19px;
+    border: 1.5px rgb(203, 203, 203) solid;
+    border-radius: 5px;
+    background-color: rgb(251, 241, 231);
+    transition: all 0.18s linear;
+}
+
+.take-googleplay-btn a {
+    color: black;
+}
+
+.take-appstore-btn:hover {
+    background-color: black;
+    border: none;
+}
+
+.take-appstore-btn a:hover {
+    color: white;
+}
+
+.take-appstore-btn:active {
+    color: rgb(194, 194, 194);
+}
+
+.take-googleplay-btn:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.take-googleplay-btn a:hover {
+    color: white;
+}
+
+.take-googleplay-btn:active {
+    color: rgb(194, 194, 194);
+}
+
+.take-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 56px 0px 45px 0px;
+}
+
+.testimonial-section {}
+
+.testimonial-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.testimonial-main-title {
+    color: rgb(220, 120, 11);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 12px;
+}
+
+.testimonial-title {
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40.63px;
+    margin-bottom: 23px;
+}
+
+.testimonial-text {
+    width: 750px;
+    color: rgb(21, 12, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 73px;
+}
+
+.testimonial-image {
+    margin-bottom: 41px;
+}
+
+.testimonial-text2 {
+    width: 506px;
+    color: rgb(21, 12, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+
+.testimonial-icon-wrapper {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 32px;
+}
+
+.testimonial-name {
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.testimonial-job {
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.contact-section {
+    background-color: #FCF1E7;
+}
+
+.contact-section-wrapper {
+    height: 448px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-main-title {
+    color: rgb(220, 120, 11);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+
+.contact-title {
+    width: 749px;
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40.63px;
+    margin-bottom: 46px;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.input-message {
+    width: 694px;
+    padding: 20px;
+    opacity: 0.5;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40.6px;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-send-btn {
+    padding: 20px;
+    width: 156px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    color: rgb(220, 120, 11);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 40.6px;
+}
+
+.contact-send-btn:hover {
+    background-color: rgb(220, 120, 11);
+    color: white;
+}
+
+.contact-send-btn:active {
+    color: rgb(255, 213, 168);
+}
+
+.site-footer {
+    background-color: rgb(37, 37, 37);
+}
+
+.footer-wrapper {
+    display: flex;
+    gap: 150px;
+    height: 429px;
+    padding: 117px 0px 104px 0px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.footer-list-item1 {
+    font-family: "Philosopher", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.footer-list-item {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    opacity: 0.7;
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+}
